@@ -8,7 +8,7 @@ var price = "Picture/price.png";
 var zonk = "Picture/zonk.png";
 var zonk2 = "Picture/zonk.png";
 var zonk3 = "Picture/zonk.png";
-var chestClosed = "Picture/closed.png";
+var chestClosed = "https://darindramantya.github.io/Picture/closed.png";
 // PLAYING
 let openChest1;
 let openChest2;
@@ -87,6 +87,8 @@ closedChest1.onclick = () => {
   }
   console.log(closedChest3.src);
   console.log(chestClosed)
+  console.log(price)
+  console.log(zonk)
 };
 closedChest2.onclick = () => {
   if (currentlyPlaying && !isClicked(closedChest2)) {
