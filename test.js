@@ -81,11 +81,12 @@ const playDoor = chest => {
 };
 // PLAY GAME
 closedChest1.onclick = () => {
-  if (currentlyPlaying && !isClicked(closedChest1)) {
+//   if (currentlyPlaying && !isClicked(closedChest1)) {
     closedChest1.src = openChest1;
     playDoor(closedChest1);
-  }
+//   }
   console.log(closedChest3.src);
+  console.log(chestClosed)
 };
 closedChest2.onclick = () => {
   if (currentlyPlaying && !isClicked(closedChest2)) {
