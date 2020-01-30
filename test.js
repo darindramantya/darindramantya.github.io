@@ -5,9 +5,9 @@ var closedChest3 = document.getElementById("chest3");
 var startButton = document.getElementById("start");
 // IMAGE
 var price = "https://darindramantya.github.io/Picture/price.png";
-var zonk = "https://darindramantya.github.io/Picture/zonk.png";
-var zonk2 = "https://darindramantya.github.io/Picture/zonk.png";
-var zonk3 = "https://darindramantya.github.io/Picture/zonk.png";
+var zonk = "";
+var zonk2 = "";
+var zonk3 = "";
 var chestClosed = "https://darindramantya.github.io/Picture/closed.png";
 // PLAYING
 let openChest1;
