@@ -4,10 +4,10 @@ var closedChest2 = document.getElementById("chest2");
 var closedChest3 = document.getElementById("chest3");
 var startButton = document.getElementById("start");
 // IMAGE
-var price = "Picture/price.png";
-var zonk = "Picture/zonk.png";
-var zonk2 = "Picture/zonk.png";
-var zonk3 = "Picture/zonk.png";
+var price = "https://darindramantya.github.io/Picture/price.png";
+var zonk = "https://darindramantya.github.io/Picture/zonk.png";
+var zonk2 = "https://darindramantya.github.io/Picture/zonk.png";
+var zonk3 = "https://darindramantya.github.io/Picture/zonk.png";
 var chestClosed = "https://darindramantya.github.io/Picture/closed.png";
 // PLAYING
 let openChest1;
