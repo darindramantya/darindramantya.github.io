@@ -17,7 +17,7 @@ var totalClosedChest = 2;
 var currentlyPlaying = true;
 // RANDOMIZER
 var randomchestNumberGenerator = () => {
-  var random = Math.floor(Math.random() * totalClosedChest+1);
+  var random = Math.floor(Math.random() * totalClosedChest + 1);
   if (random === 0) {
     openChest1 = price;
     openChest2 = zonk;
@@ -38,7 +38,7 @@ const startRound = () => {
   closedChest2.src = chestClosed;
   closedChest3.src = chestClosed;
   totalClosedChest = 2;
-  startButton.innerHTML = "Let's Find The Treasure !";
+  startButton.innerHTML = "Let The Hunt Begin !";
   currentlyPlaying = true;
   randomchestNumberGenerator();
 };
@@ -77,6 +77,8 @@ const playDoor = chest => {
     gameOver();
   } else if (isPrice(chest)) {
     gameOver("win");
+  } else if (totalClosedChest === 1) {
+    startButton.innerHTML = "1 Guesses Remaining !";
   }
 };
 // PLAY GAME
