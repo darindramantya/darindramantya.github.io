@@ -4,11 +4,11 @@ var closedChest2 = document.getElementById("chest2");
 var closedChest3 = document.getElementById("chest3");
 var startButton = document.getElementById("start");
 // IMAGE
-var price = "file:///Users/darindra23/Documents/HACKTIV8/DOM%20PROJECT/Picture/price.png";
-var zonk = "file:///Users/darindra23/Documents/HACKTIV8/DOM%20PROJECT/Picture/zonk.png";
-var zonk2 = "file:///Users/darindra23/Documents/HACKTIV8/DOM%20PROJECT/Picture/zonk.png";
-var zonk3 = "file:///Users/darindra23/Documents/HACKTIV8/DOM%20PROJECT/Picture/zonk.png";
-var chestClosed = "file:///Users/darindra23/Documents/HACKTIV8/DOM%20PROJECT/Picture/closed.png";
+var price = "Picture/price.png";
+var zonk = "Picture/zonk.png";
+var zonk2 = "Picture/zonk.png";
+var zonk3 = "Picture/zonk.png";
+var chestClosed = "Picture/closed.png";
 // PLAYING
 let openChest1;
 let openChest2;
@@ -81,10 +81,10 @@ const playDoor = chest => {
 };
 // PLAY GAME
 closedChest1.onclick = () => {
-//   if (currentlyPlaying && !isClicked(closedChest1)) {
+  if (currentlyPlaying && !isClicked(closedChest1)) {
     closedChest1.src = openChest1;
     playDoor(closedChest1);
-//   }
+  }
   console.log(closedChest3.src);
   console.log(chestClosed)
 };
