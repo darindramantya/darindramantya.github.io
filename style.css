@@ -1,0 +1,56 @@
+body {
+  background-image: url("Picture/map.jpg");
+  background-repeat: no-repeat;
+  background-size: 1500px;
+  background-position: top;
+  background-color: #ffffff;
+  margin: 0px;
+}
+.header {
+  background-color: #ffffff;
+  text-align: center;
+}
+.header img {
+  width: auto;
+  height: 100px;
+}
+.title-row {
+  margin-top: 22px;
+  margin-bottom: 5px;
+  text-align: center;
+}
+.instructions-title {
+  display: inline;
+  font-size: 35px;
+  color: #ffffff;
+  font-family: "Bangers", cursive;
+}
+.instructions-text {
+  padding: 10px;
+  font-family: "Bangers", cursive;
+  font-size: 25px;
+  color: #ffffff;
+  text-align: center;
+  letter-spacing: 1px;
+  word-spacing: 3px;
+}
+.door-row {
+  text-align: center;
+}
+.door-frame {
+  cursor: pointer;
+  padding: 40px;
+}
+.start-row {
+  margin: auto;
+  width: 120px;
+  height: 43px;
+  font-family: "Work Sans";
+  background-color: #eb6536;
+  padding-top: 18px;
+  font-size: 18px;
+  text-align: center;
+  color: #010165;
+  margin-bottom: 21px;
+  cursor: pointer;
+}
