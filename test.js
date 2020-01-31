@@ -17,7 +17,7 @@ var totalClosedChest = 2;
 var currentlyPlaying = true;
 // RANDOMIZER
 var randomchestNumberGenerator = () => {
-  var random = Math.floor(Math.random() * 9);
+  var random = Math.floor(Math.random() * 15);
   if (random === 0) {
     openChest1 = price;
     openChest2 = zonk;
@@ -51,6 +51,30 @@ var randomchestNumberGenerator = () => {
     openChest2 = zonk2;
     openChest3 = zonk3;
   } else if (random === 8) {
+    openChest1 = zonk;
+    openChest2 = zonk2;
+    openChest3 = zonk3;
+  } else if (random === 9) {
+    openChest1 = zonk;
+    openChest2 = zonk2;
+    openChest3 = zonk3;
+  } else if (random === 10) {
+    openChest1 = zonk;
+    openChest2 = zonk2;
+    openChest3 = zonk3;
+  } else if (random === 11) {
+    openChest1 = zonk;
+    openChest2 = zonk2;
+    openChest3 = zonk3;
+  } else if (random === 12) {
+    openChest1 = zonk;
+    openChest2 = zonk2;
+    openChest3 = zonk3;
+  } else if (random === 13) {
+    openChest1 = zonk;
+    openChest2 = zonk2;
+    openChest3 = zonk3;
+  } else if (random === 14) {
     openChest1 = zonk;
     openChest2 = zonk2;
     openChest3 = zonk3;
