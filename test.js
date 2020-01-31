@@ -50,7 +50,7 @@ var randomchestNumberGenerator = () => {
     openChest1 = zonk;
     openChest2 = zonk2;
     openChest3 = zonk3;
-  } else if (random === 9) {
+  } else if (random === 8) {
     openChest1 = zonk;
     openChest2 = zonk2;
     openChest3 = zonk3;
